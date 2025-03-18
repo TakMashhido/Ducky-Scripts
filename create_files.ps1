@@ -1,8 +1,8 @@
 # Define the number of files to create
-$numberOfFiles = 1
+$numberOfFiles = 10
 
-# Define the size of each file in bytes (1 GB = 1073741824 bytes)
-$fileSize = 53687091200
+# Define the size of each file in bytes (5 GB = 5368709120 bytes)
+$fileSize = 5368709120
 
 # Loop to create files
 for ($i = 0; $i -lt $numberOfFiles; $i++) {
